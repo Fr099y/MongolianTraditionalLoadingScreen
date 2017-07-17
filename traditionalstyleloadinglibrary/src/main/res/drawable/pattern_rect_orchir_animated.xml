@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/pattern_rect_ochir">
+    <target
+        android:animation="@anim/trim_start_from_zero_animation"
+        android:name="pattern" />
+</animated-vector>

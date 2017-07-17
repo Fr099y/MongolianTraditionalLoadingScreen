@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tradLoading="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context="com.example.fr099y.traditionalstyleloading.MainActivity">
+
+    <fr099y.library.traditionalstyleloading.TraditionalLoadingView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        tradLoading:trimStart = "0.4"
+        tradLoading:trimEnd = "0.2"
+        tradLoading:pattern="rect_ulzii"
+        android:tint="#ff0000" />
+
+</RelativeLayout>
