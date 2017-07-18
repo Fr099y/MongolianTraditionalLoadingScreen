@@ -1,5 +1,29 @@
 apply plugin: 'com.android.library'
 
+ext {
+    bintrayRepo = 'maven'
+    bintrayName = 'MongolianTraditionalLoadingView'
+
+    publishedGroupId = 'fr099y.library.traditionalstyleloading'
+    libraryName = 'MongolianTraditionalLoadingView'
+    artifact = 'MongolianTraditionalLoadingView'
+
+    libraryDescription = 'This is a alpha version of loading view styled a Mongolian traditional patterns'
+
+    siteUrl = 'https://github.com/Fr099y/MongolianTraditionalLoadingScreen'
+    gitUrl = 'https://github.com/Fr099y/MongolianTraditionalLoadingScreen.git'
+
+    libraryVersion = '0.1'
+
+    developerId = 'bintray-usukhuus-TraditionalLoading'
+    developerName = 'usukhuus'
+    developerEmail = 'usukhuus@gmail.com'
+
+    licenseName = 'The Apache Software License, Version 2.0'
+    licenseUrl = 'http://www.apache.org/licenses/LICENSE-2.0.txt'
+    allLicenses = ["Apache-2.0"]
+}
+
 android {
     compileSdkVersion 25
     buildToolsVersion "26.0.0"
@@ -9,7 +33,7 @@ android {
         minSdkVersion 15
         targetSdkVersion 25
         versionCode 1
-        versionName "1.0"
+        versionName "0.1"
         vectorDrawables.useSupportLibrary = true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
 
@@ -32,3 +56,6 @@ dependencies {
     implementation 'com.android.support:appcompat-v7:25.4.0'
     testImplementation 'junit:junit:4.12'
 }
+
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
+apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
