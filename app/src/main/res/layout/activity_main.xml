@@ -13,7 +13,8 @@
         android:layout_centerInParent="true"
         tradLoading:trimStart = "0.4"
         tradLoading:trimEnd = "0.2"
-        tradLoading:pattern="rect_ulzii"
-        android:tint="#ff0000" />
+        tradLoading:duration="200"
+        tradLoading:fillColor="#ffff00"
+        tradLoading:pattern="rect_ulzii" />
 
 </RelativeLayout>

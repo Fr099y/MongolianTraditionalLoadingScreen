@@ -3,5 +3,5 @@
     android:drawable="@drawable/pattern_rect_ulzii">
     <target
         android:animation="@anim/trim_start_from_zero_animation"
-        android:name="pattern" />
+        android:name="pattern"/>
 </animated-vector>

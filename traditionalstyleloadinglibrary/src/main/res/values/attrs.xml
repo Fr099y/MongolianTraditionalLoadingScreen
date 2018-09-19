@@ -2,6 +2,7 @@
 <resources>
     <declare-styleable name="TraditionalLoadingView">
         <attr name="strokeColor" format="color"/>
+        <attr name="fillColor" format="color"/>
         <attr name="duration" format="integer"/>
         <attr name="trimStart" format="float"/>
         <attr name="trimEnd" format="float"/>
